@@ -1,0 +1,97 @@
+/* CASCADING STYLE SHEET FOR MODULE 3 ASSIGNMENT SOLUTION
+ADAPTING THE TWITTER BOOTSRAP MODEL FOR RESPONSIVE PAGE DESIGN */
+
+body {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: serif;
+    background-color: #FFFFFF;
+    height: auto;
+}
+.row {
+    margin-bottom: 15px;
+}
+.row > div {
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: #B1F5CE; 
+    border: 0;
+    border-radius: 0;
+}
+.navbar-static-top{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  border-top: 0;
+
+}
+.navbar-brand {
+    padding-top: 1px;
+}
+
+.navbar-brand h1 { /* Resturant name **/
+    font-family: serif;
+    color: #E91D92;font-size: 2.0em;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 1px 1px 1px #222
+}
+
+h1 {
+  text-align: left;
+  margin-left: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+/**.nav {
+  position: fixed; **/
+}
+
+#nav list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: #074B24;
+    text-align: center;
+    font-size: 1.8em
+}
+#nav-list a: hover {
+    background: #E7E7E7;
+}
+
+button.navbar-toggle, .icon-bar {
+    border: 1px solid #074B24;
+}
+.h2 {
+    color: #074B24;
+    width: auto;
+
+    /** THIS IS MEANT FOR SCROLLABLE NAV BAR**/
+    /** margin: 0 auto;
+    padding-top: 75px;
+    padding-bottom: 20px; **/
+}
+
+.h3 {
+  background-color: #074B24;
+  margin: 0;
+  border: 0;
+  padding top: 5px;
+  padding-bottom: 0px;
+}
+
+p { 
+     border: 0px solid black;
+     width: 100%;
+     height: auto;
+     margin: 0;
+     overflow: auto;
+     padding: 0px;
+     background-color: #074B24;
+     padding: 15px;
+}
